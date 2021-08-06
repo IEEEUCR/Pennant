@@ -15,6 +15,13 @@ Pennant serves three functions
 
 Pennant does not replace Banner, but it should provide a more convenient way to work with Banner.
 
+## Development
+This project shall be managed as IEEE@UCR's fifth project. Implementation and maintenance shall be done by student committee led by the Webmaster.
+
+This project is different from IEEE@UCR's other projects as it focuses exclusively on software development. This should have greater appeal to the programming-oriented members who join IEEE@UCR.
+
+The purpose of this project is to provide professional-level experience while creating technology with long-lasting, real-world utility.
+
 ## Code
 Pennant is written in C# and runs on .NET 5.0. For the scraper, we use the HTML Agility Pack and Chrome web driver.
 
@@ -56,8 +63,3 @@ The scheduler is an offline user interface that lets you search and pick classes
   - [ ] Provide basic suggestions for classes based on user-specified pre-requisites
 ### Not in scope
 - Automatically arrange a long-term schedule for you - this is probably an NP-hard problem that we can't solve.
-
-## Development
-This project shall be managed as IEEE@UCR's fifth project. This project is different as it focuses exclusively on software development - this should have greater appeal to Computer Science majors who join IEEE@UCR.
-
-The purpose of this project is to provide professional-level experience while creating technology for real-world uses.
