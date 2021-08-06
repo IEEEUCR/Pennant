@@ -26,11 +26,11 @@ Pennant is written in C# and runs on .NET 5.0. For the scraper, we use the HTML 
   - Laboratory
 
 ## Scraper
-The web scraper opens a Chrome browser onto Banner and clicks through it, saving pages of class listings into HTML files. Most of the information about a class is stored in the HTML data.
+The web scraper opens a Chrome browser onto Banner and clicks through it (this is just as hacky as it sounds), saving pages of class listings into HTML files. Most section info is already stored in the HTML data.
+
+To navigate the page, we use a combination of clicks and tab presses. To do this, we need to be aware of the pixel positions of various buttons - we can assume that the button positions are not subject to change in the future.
 
 We also want to get Linked Sections info and general details about each course. This information is not stored in the class listing; we will have to click through View Linked Sections to get Linked Sections info and click on each class name to get its general description info.
-
-Note that Linked Sections information is not included in the HTML data, so we need extra code to click through the buttons
 
 ## Parser
 The parser reads the HTML files returned by the scraper and constructs Objects representing each class and all its info. We can serialize these Objects to provide a pre-packaged data set of classes for offline use.
