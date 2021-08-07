@@ -13,14 +13,14 @@ Pennant serves three functions
 - Package a neatly formatted data set of classes
 - Provide an offline frontend for browsing through classes.
 
-Pennant does not replace Banner, but it should provide a more convenient way to work with Banner.
+Pennant cannot replace Banner, but it should provide a more convenient way to work with Banner.
 
 ## Development
-This project shall be managed as IEEE@UCR's fifth project. Implementation and maintenance shall be done by student committee led by the Webmaster.
+This project shall be informally managed as IEEE@UCR's fifth project. Implementation and maintenance shall be done by volunteer committee led by the Webmaster. In the future, we could implement distinct lead positions similar to other projects.
 
-This project is different from IEEE@UCR's other projects as it focuses exclusively on software development. This should have greater appeal to the programming-oriented members who join IEEE@UCR.
+This project is different from IEEE@UCR's other projects as it focuses exclusively on software development. This should have greater appeal to the programming-oriented members who join IEEE@UCR. Furthermore, this project is independently run and not meant for any kind of hackathon or national competition.
 
-The purpose of this project is to provide professional-level experience while creating technology with long-lasting, real-world utility.
+The purpose of this project is to provide professional-level experience while creating tools with long-lasting, real-world utility.
 
 ## Code
 Pennant is written in C# and runs on .NET 5.0. For the scraper, we use the HTML Agility Pack and Chrome web driver.
@@ -46,7 +46,7 @@ The parser reads the HTML files returned by the scraper and constructs Objects r
 To be specified
 
 ## Scheduler
-The scheduler is an offline user interface that lets you search and pick classes to build a term plan. For general design inspiration, see [Firehose](https://firehose.guide/), a scheduling program for MIT students. 
+The scheduler is an offline user interface that lets you search and pick classes to build a term plan. For general design inspiration, see [Firehose](https://firehose.guide/), a scheduling program for MIT students. Exact design decisions are to be determined.
 
 ## Scope & Progress
 - [ ] Scrape the Schedule of Classes for a given term from Banner
