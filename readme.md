@@ -20,7 +20,7 @@ This project shall be informally managed as IEEE@UCR's fifth project. Implementa
 
 This project is different from IEEE@UCR's other projects as it focuses exclusively on software development. This should have greater appeal to the programming-oriented members who join IEEE@UCR. Furthermore, this project is independently run and not meant for any kind of hackathon or national competition.
 
-Should this project reach a completed state, the Webmaster ought to plan another software project.
+Should this project reach a state where development or maintenance is no longer needed, the Webmaster ought to plan another software project.
 
 The purpose of this project is to provide professional-level experience while creating tools with long-lasting, real-world utility.
 
