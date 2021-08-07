@@ -24,6 +24,12 @@ This project is different from IEEE@UCR's other projects as it focuses exclusive
 
 The purpose of this project is to provide professional-level experience while creating tools with long-lasting, real-world utility.
 
+## Inspiration
+- [Firehose](https://firehose.guide/): a scheduling program for MIT students.
+- [classflow](https://github.com/OrderFromChaos/classflow)
+  - [Course Sorter](https://github.com/tobiask190/Course_Sorter)
+  - [Course Planner](https://github.com/Varhagna/Course-Planner)
+
 ## Code
 Pennant is written in C# and runs on .NET 5.0. For the scraper, we use the HTML Agility Pack and Chrome web driver.
 
@@ -48,7 +54,7 @@ The parser reads the HTML files returned by the scraper and constructs Objects r
 To be specified
 
 ## Scheduler
-The scheduler is an offline user interface that lets you search and pick classes to build a term plan. For general design inspiration, see [Firehose](https://firehose.guide/), a scheduling program for MIT students. Exact design decisions are to be determined.
+The scheduler is an offline user interface that lets you search and pick classes to build a term plan. Exact design decisions are to be determined.
 
 ## Scope & Progress
 - [ ] Scrape the Schedule of Classes for a given term from Banner
