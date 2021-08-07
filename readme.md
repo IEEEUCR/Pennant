@@ -16,9 +16,11 @@ Pennant serves three functions
 Pennant cannot replace Banner, but it should provide a more convenient way to work with Banner.
 
 ## Development
-This project shall be informally managed as IEEE@UCR's fifth project. Implementation and maintenance shall be done by volunteer committee led by the Webmaster. In the future, we could implement distinct lead positions similar to other projects.
+This project shall be informally managed as IEEE@UCR's fifth project. Implementation and maintenance shall be done by a volunteer committee, led or advised by the Webmaster. Later, we could implement distinct lead positions similar to other projects.
 
 This project is different from IEEE@UCR's other projects as it focuses exclusively on software development. This should have greater appeal to the programming-oriented members who join IEEE@UCR. Furthermore, this project is independently run and not meant for any kind of hackathon or national competition.
+
+Should this project reach a completed state, the Webmaster ought to plan another software project.
 
 The purpose of this project is to provide professional-level experience while creating tools with long-lasting, real-world utility.
 
