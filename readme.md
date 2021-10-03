@@ -7,7 +7,7 @@ Pennant is a program that supplements certain *inconvenient* parts of Banner.
 
 Banner is okay at these things, but it's clunky and requires a lot of clicks to get through. Also, you have to deal with an internet application.
 
-Pennant serves three functions
+Pennant serves three functions:
 
 - Scrape the Schedule of Classes from Banner
 - Package a neatly formatted data set of classes
@@ -16,13 +16,13 @@ Pennant serves three functions
 Pennant cannot replace Banner, but it should provide a more convenient way to work with Banner.
 
 ## Development
-This project shall be informally managed as IEEE@UCR's fifth project. Implementation and maintenance shall be done by a volunteer committee, led or advised by the Webmaster. Later, we could implement distinct lead positions similar to other projects.
+This project shall be informally managed as IEEE@UCR's fifth project. Implementation and maintenance shall be done by a volunteer group, led or *advised* by the Webmaster. Later, we could implement distinct lead/advisor positions similar to other projects.
 
-The committee shall meet weekly. Developers shall follow professional-like practice and conduct regular code reviews.
+The group shall meet weekly. Developers shall follow professional-like practice, conduct regular code reviews, and probably write posts about things they've implemented (so that they might get more attention from recruiters).
 
-This project is different from IEEE@UCR's other projects as it focuses exclusively on software development. This should have greater appeal to the programming-oriented members who join IEEE@UCR. Furthermore, this project is independently run and not meant for any kind of hackathon or national competition. This project is expected to change over time - should it reach a state where development or maintenance is no longer needed, the Webmaster ought to plan another software project.
+This project is different from IEEE@UCR's other projects as it focuses exclusively on software development. This should have greater appeal to the programming-oriented members who join IEEE@UCR. Furthermore, this project is intended to be self-motivated and not meant for any kind of hackathon or national competition. This project is expected to change over time - should it reach a state where development or maintenance is no longer needed, we shall draft another software project.
 
-The purpose of this project is to provide professional-level experience while creating tools with long-lasting, real-world utility.
+The purpose of this project is to provide professional-level experience while creating tools with lasting, real-world utility.
 
 ## Inspiration
 - [Firehose](https://firehose.guide/): a scheduling program for MIT students.
@@ -30,8 +30,10 @@ The purpose of this project is to provide professional-level experience while cr
   - [Course Sorter](https://github.com/tobiask190/Course_Sorter)
   - [Course Planner](https://github.com/Varhagna/Course-Planner)
 
+Developers are encouraged to look at other programs and develop different ideas to see what we could do differently.
+
 ## Code
-Pennant is written in C# and runs on .NET 5.0. For the scraper, we use the HTML Agility Pack and Chrome web driver.
+The backend is currently written in C# and runs on .NET 5.0. For the scraper, we use the HTML Agility Pack and Chrome web driver. The frontend has yet to be designed. *We may develop multiple frontends.*
 
 ## Terminology
 - A *course* is a class.
